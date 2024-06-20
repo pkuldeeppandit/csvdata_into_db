@@ -3,14 +3,14 @@ import pandas as pd
 import mysql.connector
  
 # Directory containing the CSV files
-csv_directory = r"C:\Users\Rajeh Swami\Documents\Aurora docs\update-data\data 2 (1)\data 2"
+csv_directory = r"C:\data 2"
  
 # MySQL connection details
 db_config = {
     'host': 'localhost',
-    'user': 'root',
-    'password': 'Amandeep@$123',
-    'database': 'ihq'
+    'user': 'xyz',
+    'password': 'abc',
+    'database': 'test'
 }
  
 # Establish a connection to the MySQL database
